@@ -1,0 +1,33 @@
+/* Global rulls */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tilt Neon', sans-serif;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.h-100{
+  width: 60%;
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .col-12{
+  width: 100%;
+}
+
+.row .col-6{
+  width: 50%;
+}

@@ -1,0 +1,191 @@
+.root{
+  display: flex;
+}
+
+
+
+
+
+.profilebody{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+    padding: 20px;
+    
+   
+    
+}
+
+
+.userprofile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+  .one {
+    background-image: url('https://via.placeholder.com/400x200');
+  }
+
+
+
+  .divprofilename{
+ 
+    padding-top: 10px;
+    font-weight: bold;
+  }
+
+  .divprofilejob{
+    padding-top: 10px;
+  }
+
+  .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    margin: 20px 15px 10px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--q));
+    }
+    .social-media a:hover{
+      background-color: rgb(129, 129, 129);
+      color: rgb(202, 197, 197);
+      box-shadow: 0 0 20px rgb(129, 129, 129);
+  }
+  
+
+    @keyframes slideTop {
+
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        
+        
+        
+        
+        }
+
+        .buttonprofile{
+          margin-top: 10px;
+          width: 90%;
+          padding: 15px;
+          border-radius: 25px;
+          border: 15px ;
+          box-shadow: 0 0 5px  rgb(10, 10, 10);
+          font-style: normal ;
+        }
+
+
+        .addlinkprofile{
+
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+          background: transparent;
+          border: 2px solid rgb(78, 63, 211);
+          border-radius: 50%;
+          font-size: 50px;
+          color: rgb(78, 63, 211);
+          text-decoration: none;
+          margin: 10px 15px 10px 0;
+
+        }
+
+
+
+        .menuprofile{
+
+          position: absolute;
+          top: 0%;
+          left: 0%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          background: transparent;
+          border: 2px solid rgb(10, 10, 10);
+          border-radius: 50%;
+          font-size: 60px;
+          color: rgb(10, 10, 10);
+          text-decoration: none;
+          margin: 2px 1px 2px 2px;
+
+        }
+
+
+        .profile button:hover{
+          background-color: rgb(78, 63, 211);
+          color: black;
+          box-shadow: 0 0 20px rgb(78, 63, 211);
+      }
+      
+      .navbar1{
+        background-color: #f6f8fa;
+        border-right: 1px solid #dfe1e2;
+        width: 250px;
+        transition: all 1.3s ease-in-out;
+       
+    }
+
+    .adminn{
+  
+      border-bottom: 1px solid #dfe1e2;   
+      align-items: center;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      font-size: 20px;
+      color: rgb(10, 10, 10);
+      text-decoration: none;
+     
+      
+   }
+ 
+  .adminnimg{
+      margin-right: 10px;
+      border-radius: 50%;
+      width: 50px;
+      height:50px; 
+  }
+  
+
+
+  .icon{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+ 
